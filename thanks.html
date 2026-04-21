@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanks — Kennedy &amp; Smith Mechanical</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  body { background: var(--off-white); display: flex; flex-direction: column; min-height: 100vh; }
+  main.thanks {
+    flex: 1;
+    display: flex; align-items: center; justify-content: center;
+    padding: 140px 32px 80px;
+  }
+  .thanks-card {
+    max-width: 640px; width: 100%; text-align: center;
+    background: #fff; border-radius: 20px; padding: 64px 48px;
+    border: 1px solid rgba(0,0,0,.05);
+    box-shadow: 0 20px 60px rgba(26,38,48,.06);
+  }
+  .check-circle {
+    width: 88px; height: 88px; border-radius: 50%;
+    background: var(--cream); margin: 0 auto 28px;
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid var(--gold);
+  }
+  .check-circle svg { width: 40px; height: 40px; stroke: var(--gold); fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .thanks-card h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 44px; line-height: 1.1; color: var(--dark);
+    margin-bottom: 20px;
+  }
+  .thanks-card h1 em { font-style: italic; color: var(--gold-light); }
+  .thanks-sub {
+    font-size: 16px; line-height: 1.7; color: var(--text-light);
+    max-width: 480px; margin: 0 auto 36px;
+  }
+  .thanks-next {
+    background: var(--off-white); border-radius: 12px;
+    padding: 20px 24px; margin-bottom: 36px; text-align: left;
+  }
+  .thanks-next strong { display: block; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--dark); margin-bottom: 10px; }
+  .thanks-next ol { padding-left: 20px; font-size: 14.5px; line-height: 1.7; color: var(--text); }
+  .thanks-next li { margin-bottom: 6px; }
+  .thanks-btns {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .urgent { font-size: 13px; color: var(--text-light); }
+  .urgent a { color: var(--dark); font-weight: 600; border-bottom: 1px solid var(--gold); }
+
+  @media (max-width: 720px) {
+    .thanks-card { padding: 48px 28px; }
+    .thanks-card h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo/ks-logo-trimmed.png" alt="Kennedy &amp; Smith Mechanical" />
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <div class="nav-actions">
+      <a href="tel:2155550199" class="nav-emergency">24/7: (215) 555-0199</a>
+      <button data-token="a8d62a41ba21462caf2a9f9c9c8bf10e" data-orgname="Kennedy-and-Smith-Mechanical" class="hcp-button hcp-button-sm" onClick="HCPWidget.openModal()">Book Online</button>
+    </div>
+  </div>
+</nav>
+<script async src="https://online-booking.housecallpro.com/script.js?token=a8d62a41ba21462caf2a9f9c9c8bf10e&orgName=Kennedy-and-Smith-Mechanical"></script>
+
+<main class="thanks">
+  <div class="thanks-card">
+    <div class="check-circle">
+      <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    </div>
+    <div class="eyebrow">Request Received</div>
+    <h1>Thanks — <em>we got it.</em></h1>
+    <p class="thanks-sub">Your request is in. A member of the Kennedy &amp; Smith team will reach out shortly to confirm details and schedule the visit.</p>
+
+    <div class="thanks-next">
+      <strong>What happens next</strong>
+      <ol>
+        <li>We review your request within <strong>one business hour</strong> (Mon–Sat, 7 AM – 7 PM).</li>
+        <li>We'll call or text the number you provided to confirm timing.</li>
+        <li>A technician arrives on schedule with what's needed to get the job done right.</li>
+      </ol>
+    </div>
+
+    <div class="thanks-btns">
+      <a href="index.html" class="btn-hero-primary" style="color:var(--dark); background:var(--cream); border:1px solid rgba(0,0,0,.06);">Back to Home</a>
+      <a href="services.html" class="btn-fill">Browse Services</a>
+    </div>
+
+    <p class="urgent">Need help right now? Call us at <a href="tel:2155550199">(215) 555-0199</a> — emergency service available 24/7.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <img src="assets/logo/ks-logo-trimmed.png" alt="Kennedy &amp; Smith Mechanical" class="footer-logo-img" />
+      <p>Licensed plumbing &amp; HVAC professionals serving the Greater Philadelphia area.</p>
+      <p style="margin-top:12px; color:rgba(255,255,255,.35);">PA Plumbing License #XXXXX<br>PA HVAC License #XXXXX<br>Fully Insured</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <p><a href="plumbing.html">Plumbing</a></p>
+      <p><a href="heating.html">Heating &amp; Furnaces</a></p>
+      <p><a href="air-conditioning.html">Air Conditioning</a></p>
+      <p><a href="water-heaters.html">Water Heaters</a></p>
+      <p><a href="emergency.html">24/7 Emergency</a></p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <p><a href="about.html">About Us</a></p>
+      <p><a href="service-areas.html">Service Areas</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>(215) 555-0199</p>
+      <p>info@kennedysmithmechanical.com</p>
+      <p>Greater Philadelphia, PA</p>
+      <p>Mon – Sat, 7 AM – 7 PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Kennedy &amp; Smith Mechanical. All rights reserved.</span>
+    <span>Built by <strong>Adaptive AI Services</strong></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
